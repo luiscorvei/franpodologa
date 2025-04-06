@@ -778,6 +778,10 @@ nav a {
         margin: 20px 10px;
     }
     
+    .nav{
+        display: none;
+    }
+
     .text-content h2, .text-container h1, .before-after-section h2, .services-header h1 {
         font-size: 24px;
         margin-bottom: 15px;
