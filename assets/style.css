@@ -260,7 +260,42 @@ nav a {
     max-width: 300px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    
 }
+
+.before-after-row {
+    /* Seus estilos existentes... */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.before-after-card {
+    /* Mantenha seus estilos existentes... */
+    width: 300px; /* Largura fixa para os cards */
+    height: 300px; /* Altura fixa para os cards */
+    overflow: hidden; /* Garante que a imagem não ultrapasse o card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.before-after-card img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: 250px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorcer */
+    object-position: center; /* Centraliza a imagem no espaço disponível */
+    border-radius: 8px; /* Borda arredondada opcional */
+}
+
+.before-after-card p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #6C7A89;
+}
+
+
 .before-after-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
