@@ -28,6 +28,8 @@ body {
     align-items: center;
 }
 .logo img {
+    width: 100%;
+    height: 20em;
     margin-right: 10px;
     max-height: 50px;
 }
@@ -263,6 +265,13 @@ nav a {
     
 }
 
+.case-description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: -1rem;
+}
+
 .before-after-row {
     /* Seus estilos existentes... */
     display: flex;
@@ -284,7 +293,7 @@ nav a {
 .before-after-card img {
     width: 100%; /* Faz a imagem ocupar toda a largura do card */
     height: 250px; /* Altura fixa para todas as imagens */
-    object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorcer */
+     /* Garante que a imagem cubra todo o espaço sem distorcer */
     object-position: center; /* Centraliza a imagem no espaço disponível */
     border-radius: 8px; /* Borda arredondada opcional */
 }
